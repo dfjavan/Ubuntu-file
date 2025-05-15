@@ -1,0 +1,10 @@
+sudo tcpdump -nnni any host 8.8.8.8
+sudo vim /etc/netplan/50-cloud-init.yaml
+ــــــــــــــــــــــــــــــــــــــــــــ
+sudo vim /etc/systemd/resolved.conf
+sudo systemctl restart systemd-resolved.service
+ـــــــــــــــــــــــــــــــــــــــــــــ
+mtr -n 8.8.8.8
+sudo ip route add 8.8.8.8 via 172.18.0.1
+ip r l
+ـــــــــــــــــــــــــــــــــــــــــــ

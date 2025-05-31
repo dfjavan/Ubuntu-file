@@ -5,3 +5,11 @@ do
 done
 echo "ping OK"
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+#!/bin/bash
+
+while [ `ping 8.8.8.8 -c 1 | grep -o time=` ]
+do
+        sleep 3
+        rar a /root/log-Access/${d}$(date +%Y-%m-%d--%T).rar /var/log/apt
+done
+###############################################################

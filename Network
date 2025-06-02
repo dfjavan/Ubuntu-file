@@ -1,1 +1,42 @@
 nmcli connection show
+#####################
+BOANEL
+
+network:
+  version: 2
+  ethernets:
+    ens160: 
+      dhcp4: no
+      dhcp6: no
+    ens224:
+      dhcp4: no
+      dhcp6: no
+    ens192:
+      dhcp4: no
+      dhcp6: no
+  bridges:
+    br-mgmt:
+      interfaces:
+        - ens160
+      dhcp4: no
+      dhcp6: no
+      macclient_loop: send disconnect: Broken pipe
+root@farhad:~# :
+        - 192.168.21.60/24
+      routes:
+        - to: default
+          via: 192.168.21.1
+      nameservers:
+        addresses:
+          - 192.168.21.254
+  bonds:
+    bond0:
+      addresses: [10.0.0.30/24]
+      interfaces:
+        - ens224
+        - ens192
+      parameters:
+        mode: 802.3ad
+        mii-monitor-interval: 100
+        lacp-rate: slow
+~                              

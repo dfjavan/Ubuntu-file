@@ -8,3 +8,6 @@ mtr -n 8.8.8.8
 sudo ip route add 8.8.8.8 via 172.18.0.1
 ip r l
 ـــــــــــــــــــــــــــــــــــــــــــ
+install office
+apt install libreoffice
+___________________________________________

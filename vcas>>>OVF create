@@ -1,0 +1,1 @@
+user@sbc-2:~/ovftool$ ./ovftool  vi://f.hirboud:Df2921260@@vcenter.resaa.net/Tehran-Office/vm/f.hirboud/f.hirboud-pg ../my_vapp.ovf

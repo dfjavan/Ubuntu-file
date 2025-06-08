@@ -1,5 +1,0 @@
-##create ovf command of vcsa to linux
-user@sbc-2:~/ovftool$ ./ovftool  vi://f.hirboud:Df2921260@@vcenter.resaa.net/Tehran-Office/vm/folder-name/machin-name ../ovf-name.ovf
-###########################################
-# conver vmdk to qcow2 for KVM
-qemu-img convert -p -f vmdk -O qcow2 -c my_vapp-disk1.vmdk filename.qcow2

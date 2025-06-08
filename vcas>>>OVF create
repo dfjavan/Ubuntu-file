@@ -1,3 +1,4 @@
+create ovf command of vcsa to linu
 user@sbc-2:~/ovftool$ ./ovftool  vi://f.hirboud:Df2921260@@vcenter.resaa.net/Tehran-Office/vm/f.hirboud/f.hirboud-pg ../my_vapp.ovf
 ###########################################
 # conver vmdk to qcow2 for KVM

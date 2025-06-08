@@ -1,0 +1,4 @@
+chown root:root test.qcow
+usermod -aG libvirt root
+tcpdump -nni eno5 port 443
+chown libvirt-qemu:kvm test.qcow2

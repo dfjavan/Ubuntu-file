@@ -13,3 +13,10 @@ apt install libreoffice
 ___________________________________________
 #number line in txt or file
 cat file-name.txt | wc -l
+__________________________________
+number line in dir#
+ls -1 | wc -l
+________________________
+#used storage
+du -sh .
+_____________________

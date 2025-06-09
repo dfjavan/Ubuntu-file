@@ -11,3 +11,5 @@ ip r l
 install office
 apt install libreoffice
 ___________________________________________
+#number line in txt or file
+cat file-name.txt | wc -l

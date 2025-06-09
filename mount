@@ -1,0 +1,4 @@
+#add dvice 
+mount /dev/sdb2 /mnt
+#install tools 
+https://github.com/rgl/ovftool-binaries

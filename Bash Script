@@ -13,3 +13,4 @@ do
         rar a /root/log-Access/${d}$(date +%Y-%m-%d--%T).rar /var/log/apt
 done
 ###############################################################
+for i in $(sed 's|prod-||' cpbx-versions.txt | awk '{print $1":"$2}') ;do sudo docker pull $i ;done

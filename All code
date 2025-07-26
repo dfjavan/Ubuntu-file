@@ -16,6 +16,9 @@ cat file-name.txt | wc -l
 __________________________________
 number line in dir#
 ls -1 | wc -l
+_______________________
+ls -ln
+woner code
 ________________________
 #used storage
 du -sh .

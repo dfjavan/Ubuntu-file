@@ -24,4 +24,4 @@ ________________________
 du -sh .
 _____________________
 تغیر نام هاست بدون ریستارت
-hostnamectl set-host نام هاست 
+hostnamectl set-hostname نام هاست 

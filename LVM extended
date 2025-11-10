@@ -5,6 +5,9 @@ echo 1 > /sys/class/scsi_disk/0\:0\:0\:0/device/rescan
     pvdisplay
     pvs
     parted /dev/sda resizepart 3 100%
+FIx
+3
+100%
     pvs
     pvresize /dev/sda3
     pvs

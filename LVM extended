@@ -13,4 +13,8 @@ FIx
     pvs
     lvs
     lvextend /dev/ubuntu-vg/ubuntu-lv -l +100%FREE -r /dev/sda3
+  vgs
+    lvextend /dev/nexus-vg/nexus-lvm -l +100%FREE -r /dev/sdb    
+
     df -h
+ 

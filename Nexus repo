@@ -1,0 +1,2 @@
+#cp of system in nexus repo
+root@fh:/home/fh find rhel* -type f -iname '*rpm' -exec curl -v -u 'admin:123qwe!@#QWE' --upload-file {} http://192.168.21.200:8081/repository/rhelkazemian/{} \;

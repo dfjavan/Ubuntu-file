@@ -5,7 +5,7 @@ nano ~/.msmtprc
 _________________________
 #copy to msmrprc 
 
- Default account
+# Default account
 account default
 
 host smtp.gmail.com

@@ -1,0 +1,13 @@
+زمانی که روی سیستم vpn فعال داریم
+و می خاهمی ترافیک سرور ایران از داخل پروکسی سیستم ما عبور کند
+portlocal= port v2ray
+
+ssh -R portlocal:127.0.0.1:portloacl root@iptarget
+after login
+sudo htt_proxy=http://127.0.0.1:portlocal apt update
+curl -I --proxy http://127.0.0.1:port https://www.google.com
+____________________________________________________________________
+export http_proxy=http://127.0.0.1:port
+export https_proxy=http://127.0.0.1:port
+env | grep -i proxy
+__________________________________________________
